@@ -10,4 +10,5 @@ cat << EOF > ~/runminer.sh
 cd mochimo/mochi-beta/bin/
 ~/mochimo/mochi-beta/bin/gomochi d -t3 >> ~/mochi.log
 EOF
+chmod 777 ~/runminer.sh
 screen -dmS Miner -c `~/runminer.sh`
