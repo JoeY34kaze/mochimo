@@ -2,6 +2,7 @@
 ##usage
 ## curl -sSL https://raw.githubusercontent.com/JoeY34kaze/mochimo/master/awsStart.sh | bash 
 ## A.B. 2018
+cd /home/ubuntu/
 git clone https://github.com/JoeY34kaze/mochimo
 chmod -R a+rwx mochimo
 
