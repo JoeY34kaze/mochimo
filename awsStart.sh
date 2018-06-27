@@ -7,8 +7,8 @@ chmod -R a+rwx mochimo
 
 cat << EOF > ~/runminer.sh
 #/bin/bash
-cd mochimo/mochi/bin/
-~/mochimo/mochi/bin/gomochi d -t3 >> ~/mochi.log
+cd mochimo/mochimo/mochi/bin/
+~/mochimo/mochimo/mochi/bin/gomochi d -t3 >> ~/mochi.log
 EOF
 chmod 777 ~/runminer.sh
 screen -dmS Miner -c `~/runminer.sh`
