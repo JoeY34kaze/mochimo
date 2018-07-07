@@ -18,7 +18,7 @@ while /bin/true;do
                 cpulimit -p ${arr[1]} -l  20 &
                 IFS="$OIFS"
         done
-        sleep 30
+        sleep 5
 done
 
 
