@@ -14,7 +14,7 @@ while /bin/true;do
                 OIFS="$IFS"
                 IFS=' '
                 read -a arr <<< "${i}"
-                echo ${arr[1]} > cpulimit.log
+                echo ${arr[1]} >> cpuLimit.log
                 cpulimit -p ${arr[1]} -l  20 &
                 IFS="$OIFS"
         done
