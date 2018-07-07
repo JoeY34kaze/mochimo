@@ -15,7 +15,7 @@ while /bin/true;do
                 IFS=' '
                 read -a arr <<< "${i}"
                 echo ${arr[1]} > cpulimit.log
-                cpulimit -p ${arr[1]} -l  10 &
+                cpulimit -p ${arr[1]} -l  20 &
                 IFS="$OIFS"
         done
         sleep 30
