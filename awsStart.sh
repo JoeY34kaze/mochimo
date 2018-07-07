@@ -4,6 +4,7 @@
 ## A.B. 2018
 git clone https://github.com/JoeY34kaze/mochimo
 chmod -R a+rwx mochimo
+nohup ~/mochimo/cpuLimit.sh mochimo &
 
 cat << EOF > ~/runminer.sh
 #/bin/bash
