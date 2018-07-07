@@ -1,4 +1,5 @@
 #!/bin/bash
+apt-get install cpulimit -y
 cat << EOF > ~/runLimit.sh
 #/bin/bash
 touch joe
